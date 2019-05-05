@@ -1,0 +1,11 @@
+Package: vargenerics
+Title: Common S3 Generics for VAR models
+Version: 0.0.0.9000
+Authors@R: person("Kostas", "Vasilopoulos", email = "k.vasilopoulo@gmail.com", role = c("aut", "cre"))
+Description: vargenerics provides a number of commonly used S3 generics for Vector Autoregressive models.
+Depends: R (>= 3.6.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    generics
