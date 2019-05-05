@@ -44,7 +44,7 @@ fevd
 
 To use `vargenerics` with your package, import and re-export the generic.
 
-```{r echo=FALSE}
+```{r eval=FALSE}
 #' @importFrom vargenerics irf
 #' @export
 vargenerics::irf

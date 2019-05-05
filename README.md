@@ -36,25 +36,25 @@ irf
 #> function(object, ...) {
 #>   UseMethod("irf")
 #> }
-#> <bytecode: 0x00000000145ca660>
+#> <bytecode: 0x00000000185ca7d0>
 #> <environment: namespace:vargenerics>
 
 fevd
 #> function(object, ...) {
 #>   UseMethod("fevd")
 #> }
-#> <bytecode: 0x0000000013b0af30>
+#> <bytecode: 0x0000000017b0b0a0>
 #> <environment: namespace:vargenerics>
 ```
 
 To use `vargenerics` with your package, import and re-export the
 generic.
 
-    #> function(object, ...) {
-    #>   UseMethod("irf")
-    #> }
-    #> <bytecode: 0x00000000145ca660>
-    #> <environment: namespace:vargenerics>
+``` r
+#' @importFrom vargenerics irf
+#' @export
+vargenerics::irf
+```
 
 -----
 
