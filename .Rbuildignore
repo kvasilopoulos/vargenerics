@@ -1,3 +1,8 @@
 ^vargenerics\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^\.github$
+^README\.Rmd$
+^\.travis\.yml$
+^appveyor\.yml$
+^codecov\.yml$
