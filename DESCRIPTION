@@ -9,3 +9,5 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     generics
+URL: https://github.com/kvasilopoulos/vargenerics
+BugReports: https://github.com/kvasilopoulos/vargenerics/issues
