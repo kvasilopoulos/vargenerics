@@ -4,10 +4,10 @@
 \alias{irf}
 \title{Impulse Response Functions}
 \usage{
-irf(object, ...)
+irf(x, ...)
 }
 \arguments{
-\item{object}{A fitted var object.}
+\item{x}{A fitted object.}
 
 \item{...}{Other arguments passed to method}
 }

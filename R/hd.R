@@ -1,10 +1,10 @@
 #' Historical Decomposition
 #'
-#' @param object A fitted var object.
+#' @param x A fitted  object.
 #' @param ... Other arguments passed to methods
 #'
 #'
 #' @export
-hd <- function(object, ...) {
+hd <- function(x, ...) {
   UseMethod("hd")
 }

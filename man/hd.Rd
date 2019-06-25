@@ -4,10 +4,10 @@
 \alias{hd}
 \title{Historical Decomposition}
 \usage{
-hd(object, ...)
+hd(x, ...)
 }
 \arguments{
-\item{object}{A fitted var object.}
+\item{x}{A fitted  object.}
 
 \item{...}{Other arguments passed to methods}
 }

@@ -1,10 +1,10 @@
-#' Forecast Error Variance Decomposition
+#' Report
 #'
 #' @param x A fitted object.
 #' @param ... Other arguments passed to methods
 #'
 #'
 #' @export
-fevd <- function(x, ...) {
-  UseMethod("fevd")
+report <- function(x, ...) {
+  UseMethod("report")
 }

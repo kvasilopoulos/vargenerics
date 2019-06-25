@@ -4,10 +4,10 @@
 \alias{fevd}
 \title{Forecast Error Variance Decomposition}
 \usage{
-fevd(object, ...)
+fevd(x, ...)
 }
 \arguments{
-\item{object}{A fitted var object.}
+\item{x}{A fitted object.}
 
 \item{...}{Other arguments passed to methods}
 }
