@@ -19,13 +19,14 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![Travis build status](https://travis-ci.org/kvasilopoulos/smgenerics.svg?branch=master)](https://travis-ci.org/kvasilopoulos/smgenerics)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/kvasilopoulos/smgenerics?branch=master&svg=true)](https://ci.appveyor.com/project/kvasilopoulos/smgenerics)
-<!-- [![Codecov test coverage](https://codecov.io/gh/kvasilopoulos/smgenerics/branch/master/graph/badge.svg)](https://codecov.io/gh/kvasilopoulos/smgenerics?branch=master) -->
+[![Codecov test coverage](https://codecov.io/gh/kvasilopoulos/smgenerics/branch/master/graph/badge.svg)](https://codecov.io/gh/kvasilopoulos/smgenerics?branch=master)
 <!-- badges: end -->
 
-The goal of smgenerics is to ...
+The goal of `smgenerics` is to extend the [generics](https://github.com/r-lib/generics) package for less known methods that are part of statistical modelling and reporting packages.
+The motivation is exactly the same, i.e. to reduce educe dependencies by providing a set of generic methods that can be imported.
 
 ## Installation
-\
+
 And the development version from [GitHub](https://github.com/) with:
 
 ``` r
@@ -33,6 +34,9 @@ And the development version from [GitHub](https://github.com/) with:
 devtools::install_github("kvasilopoulos/smgenerics")
 ```
 ## Usage
+
+A very characteristic example is the packages that are using Vector Autoregressive modelling
+like `vars` and `svars`. These packages require the the use of `irf`(Impulse Response Funcion) and `hd` (Historical Decomposition) generics to function.
 
 ```{r}
 library(smgenerics)
@@ -42,7 +46,7 @@ irf
 fevd
 ```
 
-To use {smgenerics} with your package, import and re-export the generic.
+To use `smgenerics` with your package, import and re-export the generic.
 
 ```{r eval=FALSE}
 #' @importFrom smgenerics irf
