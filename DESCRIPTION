@@ -20,10 +20,8 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Suggests:
-    generics,
-    covr,
+    generics (>= 0.0.2),
+    covr (>= 3.2.1),
     testthat (>= 2.1.0),
-    pkginfo,
-    pkgload
-    
-    
+    pkginfo (>= 0.1.0),
+    pkgload (>= 1.0.2)
