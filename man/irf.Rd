@@ -14,3 +14,8 @@ irf(x, ...)
 \description{
 Impulse Response Functions
 }
+\section{Methods}{
+
+\Sexpr[stage=render,results=rd]{smgenerics:::methods_rd("irf")}
+}
+

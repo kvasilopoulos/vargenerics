@@ -3,7 +3,10 @@
 #' @param x A fitted object.
 #' @param ... Other arguments passed to method
 #'
-#' @export
+#' @section Methods:
+#' \Sexpr[stage=render,results=rd]{smgenerics:::methods_rd("irf")}
+#'
+#'@export
 irf <- function(x, ...) {
   UseMethod("irf")
 }
