@@ -19,8 +19,8 @@ coverage](https://codecov.io/gh/kvasilopoulos/smgenerics/branch/master/graph/bad
 
 The goal of `smgenerics` is to extend the
 [generics](https://github.com/r-lib/generics) package for less known
-methods that are part of statistical modelling and reporting packages.
-The motivation is exactly the same, i.e. to reduce educe dependencies by
+methods that are part of various statistical models. The motivation is
+exactly the same with `generics`, i.e. to reduce dependencies by
 providing a set of generic methods that can be imported.
 
 ## Installation
@@ -46,14 +46,14 @@ irf
 #> function(x, ...) {
 #>   UseMethod("irf")
 #> }
-#> <bytecode: 0x000000001867ed18>
+#> <bytecode: 0x0000000018681040>
 #> <environment: namespace:smgenerics>
 
 fevd
 #> function(x, ...) {
 #>   UseMethod("fevd")
 #> }
-#> <bytecode: 0x0000000017c67c20>
+#> <bytecode: 0x0000000017c6b228>
 #> <environment: namespace:smgenerics>
 ```
 

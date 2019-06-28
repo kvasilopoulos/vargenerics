@@ -23,5 +23,6 @@ Suggests:
     generics (>= 0.0.2),
     covr (>= 3.2.1),
     testthat (>= 2.1.0),
-    pkginfo (>= 0.1.0),
-    pkgload (>= 1.0.2)
+    pkgload (>= 1.0.2),
+    rvest (>= 0.3.4),
+    xml2 (>= 1.2.0)
